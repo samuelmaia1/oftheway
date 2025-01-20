@@ -1,0 +1,26 @@
+.container {
+    padding: 1.5rem;
+    height: 25rem;
+    max-width: 17.5rem;
+    border-radius: .5rem;
+    border: 2px solid var(--secondary-font);
+}
+
+.button{
+    font-weight: semibold;
+    background-color: var(--secondary-font);
+    padding: .5rem;
+    color: var(--background);
+    border-radius: .5rem;
+}
+
+.container .productName{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.productImage{
+    width: 14rem;
+    height: 14rem;
+}
